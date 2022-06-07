@@ -40,7 +40,7 @@ def main():
     diagnosis = ""
 
     if st.button("Predict"):
-        diagnosis = predict_status(message)
+        diagnosis = predict_status(Message)
         if diagnosis=="1":
             st.info("corpus is ham")
             #st.markdown("![You're like this!](https://i.gifer.com/L6m.gif)")
