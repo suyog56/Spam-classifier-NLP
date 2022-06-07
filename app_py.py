@@ -32,7 +32,7 @@ def main():
     st.write("A quick ML app to predict spam ")
 
     #getting the input
-    Message = st.text_input( "Enter your message here")
+    Message = st.text_input( "Enter your message here") #text_area  st.write('Sentiment:', run_diagnosis(txt))
 
 
 
