@@ -6,7 +6,7 @@ A simple NLP project to classify SMS messages as **spam** or **ham** using machi
 ## 🔧 Tech Stack
 
 - Python, scikit-learn, NLTK
-- TF-IDF Vectorizer + Naive Bayes
+- TF-IDF Vectorizer + MultinomialNB
 
 ## 📌 Steps
 
